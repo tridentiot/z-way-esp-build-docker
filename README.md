@@ -5,7 +5,7 @@ Docker for compiling Z-Way for ESP
 ## Fetch the docker image
 
 ```
-docker pull ghcr.io/tridentiot/z-way-esp-build-docker
+docker pull ghcr.io/tridentiot/z-way-esp-build-docker:main
 ```
 
 ## Compile Z-Way for ESP
@@ -13,7 +13,7 @@ docker pull ghcr.io/tridentiot/z-way-esp-build-docker
 Start the container:
 
 ```
-docker run -it -v $PWD:/build --platform linux/amd64 z-way-esp-build-docker bash
+docker run -it -v $PWD:/build --platform linux/amd64 ghcr.io/tridentiot/z-way-esp-build-docker:main bash
 ```
 
 Execute inside:
