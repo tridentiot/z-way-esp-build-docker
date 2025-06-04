@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-esp-amd64
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         env:
           DOCKER_METADATA_ANNOTATIONS_LEVELS: manifest
 

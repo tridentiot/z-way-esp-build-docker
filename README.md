@@ -5,7 +5,7 @@ Docker for compiling Z-Way for ESP
 ## Fetch the docker image
 
 ```
-docker pull ghcr.io/tridentiot/z-way-esp-build-docker:main
+docker pull ghcr.io/tridentiot/z-way-esp-build-docker
 ```
 
 ## Compile Z-Way for ESP
